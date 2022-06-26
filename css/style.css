@@ -1,0 +1,160 @@
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(255,255,255,0.9);
+	background: none;
+}
+
+html, body {
+    min-height:100%;
+}
+
+
+body {
+    position: relative;
+}
+
+
+.full {
+	background: url(../img/bg1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	height: 120vh;
+   }
+   
+a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #b5adaa;
+	z-index: 99999;
+	height: 100%;
+}
+#status {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 64px;
+	height: 64px;
+	margin: -32px 0 0 -32px;
+	padding: 0;
+}
+.logo {
+	font-size: 56px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: -1px;
+}
+.logo i {
+	font-size: 42px;
+}
+.coming-soon {
+	padding-top: 130px;
+	margin: 0 auto;
+}
+.coming-soon h2 {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 1.4em;
+	padding: 40px 0 10px 0;
+}
+.coming-soon p {
+	font-size: 18px;
+	color: rgba(255,255,255,0.6);
+}
+.coming-soon .counter {
+	margin: 0 0 60px 0;
+}
+.counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
+	display: inline-block;
+	margin: 0 60px 0 0;
+	font-size: 18px;
+	text-align: center;
+	color: rgba(255,255,255,0.6);
+}
+.counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+	font-size: 120px;
+	line-height: 120px;
+	color: rgba(255,255,255,0.9);
+}
+.social {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.social a {
+	color: #fff;
+	font-size: 28px;
+	display: inline-block;
+	margin: 0 40px 0 0;
+}
+.social a:hover {
+	color: rgb(176, 176, 176);
+}
+.copyright {
+	font-size: 14px;
+	margin: 20px 0 10px 0;
+	color: rgba(255,255,255,0.6)
+}
+.copyright a {
+	color: rgba(255,255,255,0.7);
+}
+.copyright a:hover {
+	color: rgb(196, 189, 189);
+}
+
+@media (max-width: 979px) {
+.counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
+	width: 140px;
+	height: 120px;
+	margin: 7px;
+	padding-top: 20px;
+}
+.counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+	font-size: 60px;
+	line-height: 70px;
+}
+}
+
+
+input[type=text], input[type=email], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	 color: black;
+  }
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: #8A0580;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #68025e;
+  }
+  
+  .community-signup {
+		max-width: 500px;
+  }
